@@ -1,5 +1,5 @@
 {
-	"version": "2.2.96",
+	"version": "2.2.97",
 	"name": "Roblox+",
 	"short_name": "Roblox+",
 	"description": "Adds features and notifiers made by WebGL3D to the Roblox website",
@@ -222,7 +222,8 @@
 		"notifications",
 		"*://*.roblox.com/*",
 		"*://*.rbxcdn.com/*",
-		"*://*.roblox.plus/*"
+		"*://*.roblox.plus/*",
+		"*://*.robloxpluslimit.glitch.me/*"
 	],
 	"web_accessible_resources": [
 		"*.css",
@@ -235,7 +236,8 @@
 		"/images/notifier.png",
 		"*://*.roblox.com/*",
 		"*://*.rbxcdn.com/*",
-		"*://*.roblox.plus/*"
+		"*://*.roblox.plus/*",
+		"*://*.robloxpluslimit.glitch.me/*"
 	],
 
 	"manifest_version": 2,
