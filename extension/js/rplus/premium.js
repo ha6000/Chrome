@@ -22,7 +22,7 @@ RPlus.premium = RPlus.premium || (function () {
 
 		isPremium: $.promise.cache(function (resolve, reject, userId) {
 			this.getPremium(userId).then(function(premium) {
-				resolve(true);
+				resolve(premium ? true : false);
 			}).catch(reject);
 		}, {
 			resolveExpiry: 15 * 1000,
