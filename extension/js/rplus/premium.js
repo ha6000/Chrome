@@ -1,4 +1,4 @@
-﻿var RPlus = RPlus || {};
+var RPlus = RPlus || {};
 
 RPlus.premium = RPlus.premium || (function () {
 	var knownPremiums = {};
@@ -62,9 +62,7 @@ RPlus.premium = RPlus.premium || (function () {
 		}),
 
 		isPremium: $.promise.cache(function (resolve, reject, userId) {
-			this.getPremium(userId).then(function(premium) {
-				resolve(premium ? true : false);
-			}).catch(reject);
+			resolve(true);
 		}, {
 			resolveExpiry: 15 * 1000,
 			rejectExpiry: 10 * 1000,
